@@ -1,0 +1,23 @@
+* {
+  background-color: black;
+  color: white;
+  font-family: sans-serif;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.flex-container > div {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+#video1,
+#video2 {
+  margin: 20%;
+}
+#line {
+  size: 100px;
+  color: white;
+}
